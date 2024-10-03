@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft WebStudio version develop-SNAPSHOT -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" pageWidth="595" pageHeight="842" name="Blank_A4" uuid="135f0725-edc4-4865-906f-745fdbee01e7">
+  <property name="net.sf.jasperreports.data.adapter" value="/My PG Data Adapter.jrdax"/>
+  <queryString><![CDATA[select * from rnc_chemical_components
+]]></queryString>
+  <field name="id" class="java.lang.String">
+    <property name="net.sf.jasperreports.sql.field.column.name" value="id"/>
+    <property name="net.sf.jasperreports.sql.field.column.label" value="id"/>
+    <property name="net.sf.jasperreports.sql.field.column.index" value="0"/>
+    <property name="com.jaspersoft.studio.field.tree.path" value="rnc_chemical_components"/>
+  </field>
+  <field name="description" class="java.lang.String">
+    <property name="net.sf.jasperreports.sql.field.column.name" value="description"/>
+    <property name="net.sf.jasperreports.sql.field.column.label" value="description"/>
+    <property name="net.sf.jasperreports.sql.field.column.index" value="1"/>
+    <property name="com.jaspersoft.studio.field.tree.path" value="rnc_chemical_components"/>
+  </field>
+  <field name="one_letter_code" class="java.lang.String">
+    <property name="net.sf.jasperreports.sql.field.column.name" value="one_letter_code"/>
+    <property name="net.sf.jasperreports.sql.field.column.label" value="one_letter_code"/>
+    <property name="net.sf.jasperreports.sql.field.column.index" value="2"/>
+    <property name="com.jaspersoft.studio.field.tree.path" value="rnc_chemical_components"/>
+  </field>
+  <field name="ccd_id" class="java.lang.String">
+    <property name="net.sf.jasperreports.sql.field.column.name" value="ccd_id"/>
+    <property name="net.sf.jasperreports.sql.field.column.label" value="ccd_id"/>
+    <property name="net.sf.jasperreports.sql.field.column.index" value="3"/>
+    <property name="com.jaspersoft.studio.field.tree.path" value="rnc_chemical_components"/>
+  </field>
+  <field name="source" class="java.lang.String">
+    <property name="net.sf.jasperreports.sql.field.column.name" value="source"/>
+    <property name="net.sf.jasperreports.sql.field.column.label" value="source"/>
+    <property name="net.sf.jasperreports.sql.field.column.index" value="4"/>
+    <property name="com.jaspersoft.studio.field.tree.path" value="rnc_chemical_components"/>
+  </field>
+  <field name="modomics_short_name" class="java.lang.String">
+    <property name="net.sf.jasperreports.sql.field.column.name" value="modomics_short_name"/>
+    <property name="net.sf.jasperreports.sql.field.column.label" value="modomics_short_name"/>
+    <property name="net.sf.jasperreports.sql.field.column.index" value="5"/>
+    <property name="com.jaspersoft.studio.field.tree.path" value="rnc_chemical_components"/>
+  </field>
+  <title>
+    <band height="200"/>
+  </title>
+  <pageHeader>
+    <band height="100"/>
+  </pageHeader>
+  <detail>
+    <band height="442"/>
+  </detail>
+  <pageFooter>
+    <band height="100"/>
+  </pageFooter>
+</jasperReport>
