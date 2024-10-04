@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft WebStudioversion develop-SNAPSHOT -->
+<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>New JDBC Data Adapter</name>
+  <username>reader</username>
+  <password>NWDMCE5xdipIjRrp</password>
+  <url>jdbc:postgresql://hh-pgsql-public.ebi.ac.uk:5432/pfmegrnargs</url>
+  <driver>org.postgresql.Driver</driver>
+</jdbcDataAdapter>
